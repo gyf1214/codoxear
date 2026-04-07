@@ -2895,7 +2895,6 @@
             : [];
           if (newSessionViewer.style.display === "flex") {
             syncNewSessionTmuxUi();
-            renderNewSessionBackendTabs();
             renderNewSessionProviderMenu();
             renderNewSessionReasoningMenu();
             syncNewSessionRunConfigUi();
